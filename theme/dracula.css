@@ -159,6 +159,14 @@ body {
   line-height: 1.6;
 }
 
+a {
+  color: var(--dracula-cyan);
+}
+
+a:hover {
+  color: var(--dracula-pink);
+}
+
 /* text selection background color */
 .in-text-selection {
   background-color: var(--dracula-current-line);
@@ -832,6 +840,14 @@ select[disabled]:hover {
   border: 0px;
 }
 
+.megamenu-menu-panel table td:nth-child(1) {
+  color: var(--dracula-foreground);
+}
+
+.megamenu-menu-panel tbody tr:hover td:nth-child(1) {
+  color: var(--dracula-foreground-fade)
+}
+
 /* remove divider in mega menu */
 .megamenu-menu-header {
   border-color: var(--menu-divider-color);
@@ -1017,7 +1033,7 @@ footer.ty-footer {
 
 /* notification panel */
 #md-notification {
-  background-color: var(--bg-color2) !important;
+  background-color: var(--dracula-red) !important;
   color: var(--text-color2);
 }
 
@@ -1318,17 +1334,6 @@ pre.md-meta-block:active {
   visibility: hidden;
   opacity: 0;
 }
-
-/* #md-searchpanel {
-	  visibility: hidden;
-	  opacity: 0;
-	  transition: 0.3s !important;
-  }
-  
-  .on-search-panel-open #md-searchpanel {
-	  visibility: visible;
-	  opacity: 1;
-  } */
 
 .uni-preference-panel {
   display: block;
