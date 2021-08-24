@@ -89,7 +89,7 @@
   --primary-btn-border-color: transparent;
   --primary-btn-text-color: var(--text-color2);
   /* implicit sidebar color */
-  --side-bar-bg-color: var(--bg-color2);
+  --side-bar-bg-color: var(--bg-color1);
   --control-text-color: var(--text-color2);
   /* implicit text color */
   --text-color: var(--text-color1);
@@ -983,7 +983,7 @@ footer.ty-footer {
 ::-webkit-scrollbar {
   width: 8px;
   padding-right: 10px;
-  background-color: black;
+  background-color: var(--scrollbar-track-color);
 }
 
 /* scrollbar track */
