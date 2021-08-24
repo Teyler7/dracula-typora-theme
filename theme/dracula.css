@@ -24,16 +24,19 @@
   /* for toc and table edit panel */
   --bg-color3: var(--dracula-background-dark);
   /* for tips */
-  --bg-color4: var(--dracula-current-line);;
+  --bg-color4: var(--dracula-current-line);
+  ;
   /* for blockquote, codeblock, input, etc */
   --bg-color5: var(--dracula-background-dark);
   /* light color for text and icon*/
   /* default color */
   --text-color1: var(--dracula-foreground);
   /* for text on panel */
-  --text-color2: var(--dracula-foreground);;
+  --text-color2: var(--dracula-foreground);
+  ;
   /* for checkbox and radio */
-  --text-color3: var(--dracula-current-line);;
+  --text-color3: var(--dracula-current-line);
+  ;
   /* for tips */
   --text-color4: var(--dracula-foreground);
   /* for focus mode */
@@ -70,7 +73,7 @@
   /* focus color */
   --focus-color: var(--dracula-cyan);
   --focus-ring-color: var(--focus-color);
-  /* codeblock color. Made to match VS Code Dracula Theme */
+  /* codeblock color */
   --code-red-color: var(--dracula-pink);
   --code-yellow-color: var(--dracula-yellow);
   --code-cyan-color: var(--dracula-cyan);
@@ -109,7 +112,7 @@
   --search-select-bg-color: var(--dracula-comment);
 
   --control-text-hover-color: var(--dracula-current-line);
-  /* implicit active file color in sidebar file menu treeview */
+  /* implicit active file color in sidebar file menu tree view */
   --active-file-text-color: var(--text-color1);
   --active-file-border-color: var(--dracula-pink);
 
@@ -201,20 +204,12 @@ a:hover {
 
 }
 
-/* #write h1:before {
-	content: "\00A7  ";
-  }
-   */
 #write h2 {
   font-size: 2em;
   padding-bottom: 0.5em;
   border-bottom: 3px double var(--text-color5);
 }
 
-/* #write h2:before {
-	content: "\00A7  ";
-  }
-   */
 #write h3 {
   font-size: 1.75em;
   padding-bottom: 0.5em;
@@ -390,12 +385,6 @@ sup.md-footnote {
 }
 
 /* mathjax */
-/* .mathjax-block>.code-tooltip {
-	  bottom: .375rem;
-  }
-  .md-mathjax-midline {
-	  background: #fafafa;
-  } */
 .md-inline-math script {
   color: var(--text-color1);
 }
@@ -435,11 +424,6 @@ input {
   background-color: var(--input-color) !important;
   border: 0px !important;
 }
-
-/* input hover */
-/* input:hover {
-	  background-color: var(--hover-bg-color2) !important;
-  } */
 
 /* checkbox */
 input[type="checkbox"]:before {
@@ -693,7 +677,7 @@ input[type="radio"]:checked:before {
   color: var(--hover-text-color);
 }
 
-/* sidebar file nemu divider */
+/* sidebar file menu divider */
 #sidebar-files-menu>.show+.menuitem-group-label.show {
   border-color: var(--menu-divider-color);
 }
@@ -929,7 +913,6 @@ select[disabled]:hover {
 footer.ty-footer {
   border-top: 0px !important;
   background-color: var(--bg-color2) !important;
-  /*     color: var(--text-color2); */
 }
 
 /* footer item */
@@ -1124,7 +1107,6 @@ code {
 
 .cm-s-inner .cm-comment,
 .cm-s-inner.cm-comment {
-  /*     color: var(--code-orange-color) !important; */
   color: var(--code-grey-color) !important;
   font-style: italic;
 }
@@ -1133,7 +1115,6 @@ code {
 .cm-s-inner .cm-def,
 .cm-s-inner.cm-header,
 .cm-s-inner.cm-def {
-  /*     color: var(--code-red-color) !important; */
   color: var(--code-blue-color) !important;
 }
 
@@ -1143,7 +1124,6 @@ code {
 }
 
 .cm-s-inner .cm-builtin {
-  /*     color: var(--code-blue-color) !important; */
   color: var(--code-cyan-color) !important;
 }
 
@@ -1160,7 +1140,6 @@ code {
 }
 
 .cm-s-inner .cm-variable-2 {
-  /*     color: var(--code-blue-color) !important; */
   color: var(--code-yellow-color) !important;
 }
 
@@ -1170,7 +1149,6 @@ code {
 }
 
 .cm-s-typora-default .cm-string {
-  /*     color: var(--code-blue-color); */
   color: var(--code-purple-color);
 }
 
@@ -1198,19 +1176,16 @@ code {
 }
 
 .cm-s-typora-default .cm-tag {
-  /*     color: var(--code-red-color); */
   color: var(--code-blue-color);
 }
 
 .cm-s-typora-default .cm-strong,
 .cm-s-typora-default .cm-em,
 .cm-s-typora-default .cm-del {
-  /*     color: var(--code-green-color); */
   color: var(--code-orange-color);
 }
 
 .cm-s-typora-default .cm-block-start.cm-variable-2 {
-  /*     color: var(--code-orange-color); */
   color: var(--code-red-color);
 }
 
@@ -1455,12 +1430,12 @@ pre.md-meta-block:active {
   color: var(--hover-text-color) !important;
 }
 
-/* active file in sidebar file menu treeview */
+/* active file in sidebar file menu tree view */
 .file-tree-node.active>.file-node-background {
   background-color: var(--hover-bg-color1);
 }
 
-/* hover file in sidebar file menu treeview */
+/* hover file in sidebar file menu tree view */
 .file-node-content:hover {
   cursor: pointer;
 }
@@ -1597,12 +1572,10 @@ g.classGroup line {
 }
 
 .stateGroup .composit {
-  /*   fill: rgb(36,40,47) !important; */
   fill: var(--dracula-background-dark) !important;
 }
 
 .stateGroup .alt-composit {
-  /*   fill: rgb(36,40,47) !important; */
   fill: var(--dracula-background-dark) !important;
 }
 
@@ -1651,19 +1624,16 @@ g.classGroup line {
 }
 
 .statediagram-cluster .outer {
-  /*   fill: var(--bg-color4) !important; */
   stroke: var(--menu-divider-color) !important;
 }
 
 .statediagram-cluster .inner {
-  /*   fill: var(--bg-color2) !important; */
   fill: var(--dracula-background-dark) !important;
   stroke: var(--menu-divider-color) !important;
 }
 
 .statediagram-cluster-alt .inner {
-  /*   fill: var(--bg-color5) !important; */
-  fill: hsl(218, 13%, 16%) !important;
+  fill: var(--dracula-background-dark) !important;
   stroke: var(--menu-divider-color) !important;
 }
 
