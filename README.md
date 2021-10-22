@@ -4,6 +4,10 @@ A [Dracula Spec](https://draculatheme.com) based theme for the [Typora Markdown 
 
 ![Dracula](/images/dracula-typora.png)
 
+Typora Themes: https://theme.typora.io/
+
+Dracula Typora Theme: https://theme.typora.io/theme/Dracula/
+
 ## Install
 
 * Download or clone this repository.
