@@ -25,7 +25,7 @@
   --bg-color3: var(--dracula-background-dark);
   /* for tips */
   --bg-color4: var(--dracula-current-line);
-  ;
+  
   /* for blockquote, codeblock, input, etc */
   --bg-color5: var(--dracula-background-dark);
   /* light color for text and icon*/
@@ -33,10 +33,9 @@
   --text-color1: var(--dracula-foreground);
   /* for text on panel */
   --text-color2: var(--dracula-foreground);
-  ;
   /* for checkbox and radio */
   --text-color3: var(--dracula-current-line);
-  ;
+  
   /* for tips */
   --text-color4: var(--dracula-foreground);
   /* for focus mode */
@@ -118,6 +117,8 @@
 
   --node-border: var(--menu-divider-color);
   --node-fill: var(--bg-color2);
+
+  --monospace: Menlo, Monaco, 'Courier New', monospace;
 }
 
 /* font */
@@ -198,34 +199,32 @@ a:hover {
 }
 
 #write h1 {
-  font-size: 2.5em;
-  padding-bottom: 0.5em;
-  border-bottom: 3px double var(--text-color5);
+  font-size: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--text-color3);
 
 }
 
 #write h2 {
-  font-size: 2em;
-  padding-bottom: 0.5em;
-  border-bottom: 3px double var(--text-color5);
+  font-size: 1.5em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--text-color3);
 }
 
 #write h3 {
-  font-size: 1.75em;
-  padding-bottom: 0.5em;
-  border-bottom: 1px solid var(--text-color5);
+  font-size: 1.25em;
 }
 
 #write h4 {
-  font-size: 1.55em;
+  font-size: 1em;
 }
 
 #write h5 {
-  font-size: 1.35em;
+  font-size: .875em;
 }
 
 #write h6 {
-  font-size: 1.2em;
+  font-size: .85em;
 }
 
 /* horizontal divider */
