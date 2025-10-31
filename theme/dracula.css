@@ -25,7 +25,7 @@
   --bg-color3: var(--dracula-background-dark);
   /* for tips */
   --bg-color4: var(--dracula-current-line);
-  
+
   /* for blockquote, codeblock, input, etc */
   --bg-color5: var(--dracula-background-dark);
   /* light color for text and icon*/
@@ -35,7 +35,7 @@
   --text-color2: var(--dracula-foreground);
   /* for checkbox and radio */
   --text-color3: var(--dracula-current-line);
-  
+
   /* for tips */
   --text-color4: var(--dracula-foreground);
   /* for focus mode */
@@ -1668,6 +1668,11 @@ g.classGroup line {
   fill: var(--menu-divider-color) !important;
   stroke: var(--menu-divider-color) !important;
   stroke-width: 0.3px !important;
+}
+
+/* Cursor color in Mermaid context */
+pre.md-fences[lang="mermaid"] .CodeMirror-cursor {
+  border-left: 2px solid var(--text-color1 ) !important;
 }
 
 pre[mermaid-type="journey"] line {
